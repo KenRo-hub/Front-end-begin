@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(235, 224, 224) ;
+ }
+ ul {
+    background-color: #fff;
+    list-style-type: none;
+    border-radius: 8px;
+    padding-left: 0px;
+    border: solid 1px #ddd;
+ }
+ ul li{
+    padding: 15px;
+    border-bottom: solid 1px #ddd;
+ }

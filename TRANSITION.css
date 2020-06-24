@@ -1,0 +1,42 @@
+body{
+    background-color: #eee;
+ }
+ .box{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    /*transform: skew(25deg,10deg);*/
+    transition: 0.5s;/*hace que tome un tiempo para la transformación. Si no se indica el atributo(width) este por defecto tomara todas los atributos.*/
+    transition-delay: 0.1s;/*demora la transformación, tambien se puede agregar a transition indicando solamente los segundos que deseas que se demore la transition*/
+ }
+ .box:hover{
+    /* transform: scale(1.05,1.05);*/
+    /*transform: scaleY(1.05);*/
+    /*width: 200px; especialmente usado para las barras de navegación laterales*/
+    transform: scale(1.1,1.1);
+    background-color: #444;
+    color: white;
+  }
+ .box2{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    /*transform: skew(25deg,10deg);*/
+    transition: width 0.5s;/*hace que tome un tiempo para la transformación. Si no se indica el atributo(width) este por defecto tomara todas los atributos.*/
+ }
+ .box2:hover{
+    /* transform: scale(1.05,1.05);*/
+    /*transform: scaleY(1.05);*/
+    width: 200px;/* especialmente usado para las barras de navegación laterales*/
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  }

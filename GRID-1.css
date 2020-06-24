@@ -1,0 +1,28 @@
+body{
+    background-color: #eee;
+ }
+ .grid{
+   display: grid;
+   /*tambien hay inline grid*/
+   /*grid-template-rows: 50px 100px;
+   grid-template-columns: minmax(auto, 50%);*/
+ 
+   grid-template-rows: repeat(2, [row-inicio] 50px [row-fin]);/*[row-1-inicio] 50px [row-2-inicio] 50px [row-3-fin]*/
+ 
+   grid-template-columns: repeat(3, [col-inicio] 1fr [col-fin]);/*[col-1-inicio] 1fr [col-2-inicio] 1fr [col-3-inicio] 1fr [col-4-fin]*/
+   /* grid-template-columns: 90px 50px 120px;*/
+   gap: 30px 20px;
+   /*row-gap: 20px;
+   column-gap: 50px;*/
+   /*el row-gap y el column-gap fue reemplazado por el gap*/
+ }
+ .elemento{
+    background-color: red;
+ }
+ .header{
+    grid-row: row-inicio/row-fin 2;
+    /*el primer valor indica donde inicia y el ultimo, donde termina*/
+    grid-column: col-inicio/col-fin 3 ;
+    /*el primer valor indica donde inicia y el ultimo, donde termina*/
+    
+ }

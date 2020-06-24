@@ -1,0 +1,25 @@
+body{
+    background-color: #eee;
+ }
+ .grid{
+    display: grid;
+    grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer";/*grilla explicita*/
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+    grid-auto-rows: 140px;/*grilla implicita*/
+    grid-auto-flow:  row;/*el contenido va de arriba hacia abajo, pero, cuando se especifica COLUMN, el contenido va de izquierda a derecha*/
+    /*
+    justify-items: stretch;/*(center)toma el contenido y lo coloca en el centro en el eje HORIZONTAL, (start)lo coloca al inicio, (end) lo coloca al final y (stretch) estira el contenido en alto y ancho*/
+    /*
+    align-items: stretch;/*(center)toma el contenido y lo coloca en el centro en el eje VERTICAL, (start)lo coloca al inicio, (end) lo coloca al final y (stretch) estira el contenido en alto y ancho*/
+    
+ }
+ .red{
+    background-color: red;
+ }
+ .item-1{
+    justify-self: center;
+    align-self: center;
+ }

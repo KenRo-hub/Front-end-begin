@@ -1,0 +1,20 @@
+body{
+    background-color: #eee;
+ }
+ .fondo p{
+    top: 405px;
+ }
+ .fondo{
+    width: 100%;
+    height: 100%;
+    background: #555FFF url('https://c4.wallpaperflare.com/wallpaper/182/606/502/anime-solo-leveling-sung-jin-woo-hd-wallpaper-preview.jpg') no-repeat center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    /*todas estas propiedades se pueden aplicar con una sola etiqueta pero en el mismo orden  que se indica abajo
+    background-color: #555fff;
+    background-image: url('http://placekitten.com/300/200');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;mantiene fijo la imagen cuando se hace scroll
+    background-size: cover;expande la imagen en la cabecera de la pagina web*/
+ }

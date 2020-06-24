@@ -1,0 +1,30 @@
+body{
+    background-color: #eee;
+ }
+ .flex{
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;   
+ }
+ .primero{
+ /*order: 1; (0),mantiene la posición;(-1), envia el elemento al inicio;(1), envia el elemento al final
+ flex-grow: 1;/*ocupa el espacio de la pantalla(fr)
+ flex-basis: 40px;/*le da un ancho inicial,
+ ahora estos dos elementos se puede cambiar por flex*/
+ flex: 1 120px;
+ }
+ .segundo{
+ /*order: 1;*/
+ flex-grow: 2;
+ align-self: center;
+ }
+ .tercero{
+ /*order: -1;*/
+ flex-grow: 1;
+ align-self: flex-end;
+ }
+ .cuarto{
+ /*order: -1;*/
+ align-self: stretch;
+ flex: 1 20px;
+ }

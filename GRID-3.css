@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+ }
+ body{
+    background-color: #eee;
+    margin: 0;
+    height: 100%;
+ }
+ .grid{
+    
+    display: grid;
+    width: 100%;/*Todo el ancho de la pantalla*/
+    height: 100%;/*Toda la altura de la pantalla*/
+    grid-template-columns: repeat(4, 60px);/*la cantidad que se repite y el tamaño de la altura*/
+    grid-template-rows: repeat(3, 60px);/*la cantidad que se repite y el tamaño de la anchura*/
+    gap: 5px ;
+    justify-content: start;/*(space-evenly)distribuye la grilla de manera uniforme,(space-around) distribuye alrededor de las grillas una cantidad de px haciendo que entre grillas se vea ancho pero en los extremos se vea delgado y (space-between) los separa pero los junta a los extremos*/
+    align-content: space-evenly;
+ }
+ .red{
+    background-color: red;
+ }  

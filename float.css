@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(235, 224, 224) ;
+ }
+ img{
+    float: right;
+ }
+ img:hover{
+    opacity: 0.85;
+ }
+ section p{
+    color: blueviolet;
+ }

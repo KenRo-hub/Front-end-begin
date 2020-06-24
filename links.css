@@ -1,0 +1,41 @@
+body{
+    background-color: #eee;
+ }
+ p{
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+ }
+ #caja{
+    background-color: rgb(61, 60, 60) ;
+    padding: 28px;
+    border-radius: 8px;
+   /* position: fixed;
+    width: 100%;*/
+ }
+ a{/*la etiqueta no necesariamente debe tener href*/
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+    margin: 4px;
+    background-color: darkgray ;
+    border-radius: 4px;
+    border: solid 1px #fff;
+   /* width: 100%;*/
+ }
+ a:link{
+    color: black;
+ }
+ a:visited{
+    color: white;
+ }
+ a:hover{
+    text-decoration: none ;
+    color: rgb(36, 17, 17);
+ }
+ a:active{
+    color: grey;
+ }
+ 
